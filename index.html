@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://dl.dropbox.com/s/8m7ooqdpyl1o6zc/style.css?dl=0">
+    
+</head>
+<body>
+
+    <div class="wrapper">
+        <section class="screen1">
+            <div class="previous" data-operand-previous> </div>
+        </section>
+        <section class="screen2">
+            <div class="current" data-operand-current>0</div>
+        </section>
+
+        <section class="calc-btn_row">
+            <div class="calc_btn_row">
+              <button class="calc_btn_light"
+              data-all-clear>C</button>
+              <button class="calc_btn_light power" data-power>x<sup style="font-size: 0.8rem;">y</sup></button>
+              <button class="calc_btn_light" data-delete>&larr;</button>
+              <button class="calc_btn" data-operation>÷</button>
+            </div>
+
+            <div class="calc_btn_row">
+                <button class="calc_btn" data-number>7</button>
+                <button class="calc_btn" data-number>8</button>
+                <button class="calc_btn" data-number>9</button>
+                <button class="calc_btn" data-operation>×</button>
+            </div>
+
+            <div class="calc_btn_row">
+                <button class="calc_btn" data-number>4</button>
+                <button class="calc_btn" data-number>5</button>
+                <button class="calc_btn" data-number>6</button>
+                <button class="calc_btn" data-operation>–</button>
+            </div>
+
+            <div class="calc_btn_row">
+                <button class="calc_btn" data-number>1</button>
+                <button class="calc_btn" data-number>2</button>
+                <button class="calc_btn" data-number>3</button>
+                <button class="calc_btn" data-operation>+</button>
+            </div>
+
+            <div class="calc_btn_row">
+                <button class="calc_btn double" data-number>0</button>
+                <button class="calc_btn" data-number>.</button>
+                <button class="equalbtn" data-equal>=</button>
+            </div>
+
+            <div class="space"> </div>
+        </section>
+    </div>
+    <script src='https://dl.dropbox.com/s/88wk2fojsw8fl4z/index.js?dl=0'></script>
+</body>
+</html>
